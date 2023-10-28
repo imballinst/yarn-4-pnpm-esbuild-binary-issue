@@ -1,0 +1,7 @@
+{
+  "name": "yarn-4-pnpm-esbuild-binary-issue",
+  "packageManager": "yarn@3.6.4",
+  "dependencies": {
+    "astro": "^3.4.0"
+  }
+}
