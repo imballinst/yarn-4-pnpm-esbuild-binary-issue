@@ -1,0 +1,11 @@
+@imballinst ➜ /workspaces/yarn-4-pnpm-esbuild-binary-issue/yarn3-esbuild (main) $ ls -al node_modules/esbuild/bin
+total 20
+drwxr-xr-x+ 2 root root 4096 Jun 22  1984 .
+drwxr-xr-x+ 5 root root 4096 Jun 22  1984 ..
+-rwxr-xr-x  1 root root 9180 Jun 22  1984 esbuild
+
+@imballinst ➜ /workspaces/yarn-4-pnpm-esbuild-binary-issue/yarn3-esbuild (main) $ ls -al ../yarn4-esbuild/node_modules/esbuild/bin 
+total 20
+drwxr-xr-x+ 2 root root 4096 Jun 22  1984 .
+drwxr-xr-x+ 4 root root 4096 Jun 22  1984 ..
+-rw-rw-rw-  2 root root 9180 Jun 22  1984 esbuild
